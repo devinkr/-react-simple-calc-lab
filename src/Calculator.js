@@ -41,6 +41,30 @@ class Calculator extends Component {
 		}
 	};
 
+/* 	calculate = () => {
+		// take the two values from state
+		// add them together
+		this.setState((prevState) => {
+			let result = 0;
+			if (prevState.operation === '+') {
+				result = prevState.num1 + prevState.num2;
+			} else if (prevState.operation === '-') {
+				result = prevState.num1 - prevState.num2;
+			} else if (prevState.operation === '/') {
+				result = prevState.num1 / prevState.num2;
+			} else if (prevState.operation == '*') {
+				result = prevState.num1 * prevState.num2;
+			} else {
+				console.warn('something has gone wrong with the math!');
+			}
+
+			return {
+				// set the result in state to be the new value
+				result,
+			};
+		});
+	}; */
+
 	render() {
 		return (
 			<div className='container'>
